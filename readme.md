@@ -6,7 +6,7 @@ Node is single threaded and to use more CPU cores we must create new processes a
 * iptables using prerouting to redirect connections to Node’s child processes listening on multiple ports
 * Nginx as a reverse proxy passing connections to Node’s child processes listening on multiple ports
 
-Tests ran on Node 6.0.0 using ES6 and results measured by:
+Tests ran on Node 6.0.0 and results measured by:
 
 * Load distribution - how is the load spread across processes
 * Total requests and request rate
