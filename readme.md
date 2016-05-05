@@ -12,4 +12,4 @@ Tests ran on Node 6.0.0 using ES6 and results measured by:
 * Total requests and request rate
 * Memory used by master and workers
 
-Read the full article at https://medium.com/@fermads/node-js-process-load-balancing-comparing-cluster-iptables-and-nginx-6746aaf38272#.2ywy2ghtv
+### Read the full article at https://goo.gl/53oGXl
