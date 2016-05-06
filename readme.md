@@ -1,6 +1,6 @@
-# Node.js process load balancing: comparing cluster, iptables and Nginx
+# Node.js process load balance performance: comparing cluster module, iptables and Nginx
 
-Node is single threaded and to use more CPU cores we must create new processes and distribute the load. This article is a comparison between three ways of doing process load balancing for Node.js web applications:
+Node is single threaded and to use more CPU cores we must create new processes and distribute the load. This is a performance comparison between three ways of doing process load balancing for Node.js web applications:
 
 * Node cluster core module having a master process listen on a port and distribute connections to workers
 * iptables using prerouting to redirect connections to Node’s child processes listening on multiple ports
