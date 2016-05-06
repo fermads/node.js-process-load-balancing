@@ -12,4 +12,4 @@ Tests ran on Node 6.0.0 and results measured by:
 * Total requests and request rate
 * Memory used by master and workers
 
-### Read the full article at https://goo.gl/53oGXl
+### Read full article with test results at https://goo.gl/53oGXl
