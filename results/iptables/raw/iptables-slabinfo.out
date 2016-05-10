@@ -1,7 +1,11 @@
-[root@a1-hbpws1 results]# grep Slab /proc/meminfo 
+# slab info from before and after the test.
+# Can't assume too much because it counts all kernel modules
+# not only iptables
+
+[root@a1-hbpws1 results]# grep Slab /proc/meminfo
 Slab:             160344 kB
 
 
-[root@a1-hbpws1 results]# grep Slab /proc/meminfo 
+[root@a1-hbpws1 results]# grep Slab /proc/meminfo
 Slab:             122484 kB
 
